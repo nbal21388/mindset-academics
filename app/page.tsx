@@ -12,16 +12,16 @@ export default function Home() {
           <Link href="/pages/subjects" className="text-yellow-300 hover:underline">
             Subjects
           </Link>
-          <Link href="/blog" className="text-green-300 hover:underline">
+          <Link href="/pages/blog" className="text-green-300 hover:underline">
             Prices
           </Link>
-          <Link href="/contact" className="text-red-300  hover:underline">
+          <Link href="/pages/contact" className="text-red-300  hover:underline">
             Contact Us
           </Link>
-          <Link href="/testimonials" className="text-blue-300 hover:underline">
+          <Link href="/pages/testimonials" className="text-blue-300 hover:underline">
             Testimonials
           </Link>
-          <Link href="/faq" className="text-purple-300 hover:underline">
+          <Link href="/pages/faq" className="text-purple-300 hover:underline">
             FAQ
           </Link>
         </div>
