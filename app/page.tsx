@@ -6,10 +6,10 @@ export default function Home() {
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-violet-950">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
                 <div className="flex flex-row items-center gap-6 text-center sm:items-start sm:text-left">
-          <Link href="/about" className="text-orange-300 hover:underline">
+          <Link href="/pages/about" className="text-orange-300 hover:underline">
             About Us
           </Link>
-          <Link href="/services" className="text-yellow-300 hover:underline">
+          <Link href="/pages/subjects" className="text-yellow-300 hover:underline">
             Subjects
           </Link>
           <Link href="/blog" className="text-green-300 hover:underline">
