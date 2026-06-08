@@ -8,16 +8,10 @@ export default function Contact() {
                 <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
                     If you have any questions, feedback, or inquiries about our educational resources and support services, please don't hesitate to contact us. 
                     You can reach us through the following channels:
-                    Email:
-                    You can email us at
-                    support@mindsetacademics.com, and our customer support team will get back to you as soon as possible.
-                    Phone:
-                    You can also call us at (123) 456-7890 during our business hours, which are Monday to Friday from 9 AM to 5 PM.
-                    Social Media:
-                    Follow us on our social media platforms for updates, tips, and more. You can find us on Facebook, Twitter, and Instagram at @mindsetacademics.
-                    Contact Form:
-                    Alternatively, you can fill out the contact form on our website with your name, email address, and message, and we will respond to your inquiry promptly.
-                    We value your feedback and look forward to hearing from you!
+                    Email: ---
+                    Phone: ---
+                    Address: ---
+                    We value your input and are here to assist you in any way we can. Whether you're a student, parent, or educator, we look forward to hearing from you and helping you on your academic journey.
                 </p>
             </main>
         </div>
