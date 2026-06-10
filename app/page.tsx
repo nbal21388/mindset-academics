@@ -1,10 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import RippleBackground from "./components/RippleBackground";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-violet-950">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <>
+          <RippleBackground />
+
+    <div className="relative z-10 flex flex-col flex-1 items-center justify-center font-sans">
+
+      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
                 <div className="flex flex-row items-center gap-6 text-center sm:items-start sm:text-left">
           <Link href="/pages/about" className="text-orange-300 hover:underline">
             About Us
@@ -84,5 +89,6 @@ export default function Home() {
         </div>
       </main>
     </div>
+        </>
   );
 }
