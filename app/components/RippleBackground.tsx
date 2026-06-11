@@ -15,7 +15,7 @@ export default function RippleBackground() {
 
     let cH: number;
     let cW: number;
-    let bgColor = "#FF6138";
+    let bgColor = "#0d4570";
     const animations: any[] = [];
 
     const colorPicker = (() => {

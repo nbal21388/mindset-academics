@@ -1,7 +1,14 @@
+
+import NavBar from "@/app/components/NavBar";
+import RippleBackground from "@/app/components/RippleBackground";
+
 export default function Subjects() {
     return (
-        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-violet-950">  
-            <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <>
+          <RippleBackground />
+    <div className="relative z-10 flex flex-col flex-1 items-center justify-center font-sans">  
+            <NavBar />
+            <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
                 <h1 className="text-4xl font-bold text-center text-black dark:text-zinc-50">
                     Subjects
                 </h1>
@@ -13,5 +20,6 @@ export default function Subjects() {
                 </p>
             </main>
         </div>
+        </>
     );
 }
