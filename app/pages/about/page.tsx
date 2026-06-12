@@ -1,12 +1,17 @@
+import InfoCard from "@/app/components/InfoCard";
+import NavBar from "@/app/components/NavBar";
+import RippleBackground from "@/app/components/RippleBackground";
+
 
 
 export default function About() {
     return (
-        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-violet-950">  
-            <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-                <h1 className="text-4xl font-bold text-center text-black dark:text-zinc-50">
+    <div className="relative z-10 flex flex-col flex-1 items-center justify-center font-sans">  
+            <NavBar /> 
+                <h1 className="text-4xl font-bold text-center text-black dark:text-zinc-50 m-6">
                     About Us
                 </h1>
+            <InfoCard>
                 <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
                     At Mindset Academics, we are dedicated to providing high-quality educational resources and support to students of all ages. 
                     Our mission is to empower learners with the knowledge and skills they need to succeed academically and beyond. 
@@ -14,7 +19,7 @@ export default function About() {
                     Whether you're a student looking for study tips, a parent seeking guidance, or an educator searching for innovative teaching strategies, 
                     Mindset Academics is here to help you achieve your goals.
                 </p>
-            </main>
+            </InfoCard>
         </div>
     );
 }
