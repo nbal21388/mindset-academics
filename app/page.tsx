@@ -13,7 +13,7 @@ export default function Home() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/logo.png"
-              alt="Mindset Academics Logo"
+              alt="Logo - Mindset Academics"
               width={40}
               height={40}
             />
