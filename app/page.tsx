@@ -11,12 +11,6 @@ export default function Home() {
 
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
           <Link href="/" className="flex items-center gap-3">
-            <Image
-              src="/logo.png"
-              alt="Logo - Mindset Academics"
-              width={40}
-              height={40}
-            />
             <span className="text-blue-400 font-bold text-xl">Mindset Academics</span>
           </Link>
                 <div className="flex flex-row items-center gap-6 text-center sm:items-start sm:text-left">
