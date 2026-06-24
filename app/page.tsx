@@ -1,11 +1,22 @@
 import Image from "next/image";
-import Link from "next/link";
+import NavBar from "./components/NavBar";
+import InfoCard from "./components/InfoCard";
 import RippleBackground from "./components/RippleBackground";
 
 export default function Home() {
   return (
-    <>
-          <RippleBackground />
+    <div className="relative z-10 flex flex-col flex-1 items-center font-sans">
+      <NavBar />
+      <Image
+        className="dark:invert"
+        src="/next.svg"
+        alt="Next.js logo"
+        width={100}
+        height={20}
+        priority
+      />
+      <h1 className="text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 align-center item-center m-6">
+        To get started, edit the page.tsx file.
 
     <div className="relative z-10 flex flex-col flex-1 items-center justify-center font-sans">
 
@@ -71,6 +82,28 @@ export default function Home() {
             center.
           </p>
         </div>
+        WELCOME TO MINDSET ACADEMICS!
+      </h1>
+      <InfoCard>
+        <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+          Looking for a starting point or more instructions? Head over to{" "}
+          <a
+            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="font-medium text-zinc-950 dark:text-zinc-50"
+          >
+            Templates
+          </a>{" "}
+          or the{" "}
+          <a
+            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="font-medium text-zinc-950 dark:text-zinc-50"
+          >
+            Learning
+          </a>{" "}
+          center.
+        </p>
+      </InfoCard>
+      <InfoCard>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
             className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
@@ -96,8 +129,7 @@ export default function Home() {
             Documentation
           </a>
         </div>
-      </main>
+      </InfoCard>
     </div>
-        </>
   );
 }

@@ -1,10 +1,15 @@
+import InfoCard from "@/app/components/InfoCard";
+import NavBar from "@/app/components/NavBar";
+import RippleBackground from "@/app/components/RippleBackground";
+
  export default function Blog() {
     return (
-        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-violet-950">  
-            <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-                <h1 className="text-4xl font-bold text-center text-black dark:text-zinc-50">
+    <div className="relative z-10 flex flex-col flex-1 items-center justify-center font-sans"> 
+            <NavBar />
+                <h1 className="text-4xl font-bold text-center text-black dark:text-zinc-50 m-6">
                     Prices
                 </h1>
+            <InfoCard>
                 <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
                     At Mindset Academics, we offer competitive pricing for our educational resources and support services. 
                     Our pricing structure is designed to provide value to our customers while ensuring that we can continue to deliver high-quality content and assistance. 
@@ -13,7 +18,7 @@
                     We also offer discounts for students, educators, and bulk purchases. 
                     For more detailed information on our pricing and subscription plans, please visit our website or contact our customer support team.
                 </p>
-            </main>
+            </InfoCard>
         </div>
     );
 }
