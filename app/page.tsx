@@ -7,46 +7,7 @@ export default function Home() {
   return (
     <div className="relative z-10 flex flex-col flex-1 items-center font-sans">
       <NavBar />
-    <div className="relative z-10 flex flex-col flex-1 items-center justify-center font-sans">
-
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
-          <Link href="/" className="flex items-center gap-3">
-            <Image
-              src="/logo.png"
-              alt="Logo - Mindset Academics"
-              width={40}
-              height={40}
-            />
-            <span className="text-blue-400 font-bold text-xl">Mindset Academics</span>
-          </Link>
-                <div className="flex flex-row items-center gap-6 text-center sm:items-start sm:text-left">
-          <Link href="/pages/about" className="text-orange-300 hover:underline">
-            About Us
-          </Link>
-          <Link href="/pages/subjects" className="text-yellow-300 hover:underline">
-            Subjects
-          </Link>
-          <Link href="/pages/blog" className="text-green-300 hover:underline">
-            Prices
-          </Link>
-          <Link href="/pages/contact" className="text-red-300  hover:underline">
-            Contact Us
-          </Link>
-          <Link href="/pages/testimonials" className="text-blue-300 hover:underline">
-            Testimonials
-          </Link>
-          <Link href="/pages/faq" className="text-purple-300 hover:underline">
-            FAQ
-          </Link>
-        </div>
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.tsx file.
@@ -120,7 +81,7 @@ export default function Home() {
           </a>
         </div>
       </InfoCard>
+      </main>
     </div>
-      </>
   );
 }
