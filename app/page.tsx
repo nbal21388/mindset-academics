@@ -7,17 +7,6 @@ export default function Home() {
   return (
     <div className="relative z-10 flex flex-col flex-1 items-center font-sans">
       <NavBar />
-      <Image
-        className="dark:invert"
-        src="/next.svg"
-        alt="Next.js logo"
-        width={100}
-        height={20}
-        priority
-      />
-      <h1 className="text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 align-center item-center m-6">
-        To get started, edit the page.tsx file.
-
     <div className="relative z-10 flex flex-col flex-1 items-center justify-center font-sans">
 
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
@@ -82,6 +71,7 @@ export default function Home() {
             center.
           </p>
         </div>
+      <h1>
         WELCOME TO MINDSET ACADEMICS!
       </h1>
       <InfoCard>
