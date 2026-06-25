@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function NavBar() {
     return (
-      <div className="flex flex-row items-center justify-between z-10 pt-4 px-6">
+      <div className="flex flex-row items-center justify-between w-full z-10 pt-4 px-6">
         {/* sm:items-start sm:text-left */}
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3 px-4">
           <Image
             src="/logo.png"
             alt="Logo - Mindset Academics"
