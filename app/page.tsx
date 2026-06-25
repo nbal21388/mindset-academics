@@ -9,6 +9,12 @@ export default function Home() {
     <div className="relative z-10 flex flex-col flex-1 items-center font-sans">
       <NavBar />
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
+        <Image
+          src="/logoText.png"
+          alt="Logo - Mindset Academics"
+          width={100}
+          height={100}
+        />
         <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
           WELCOME TO MINDSET ACADEMICS!
         </h1>
