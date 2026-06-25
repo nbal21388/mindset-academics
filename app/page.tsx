@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "./components/NavBar";
 import InfoCard from "./components/InfoCard";
+import Footer from "./components/Footer";
 import RippleBackground from "./components/RippleBackground";
 
 export default function Home() {
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
       </InfoCard>
       </main>
+      <Footer/>
     </div>
   );
 }
