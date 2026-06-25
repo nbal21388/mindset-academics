@@ -13,11 +13,11 @@ export default function Footer() {
 
         {/* Links */}
         <div className="flex flex-row gap-6 text-sm">
-          <Link href="/reviews" className="text-gray-500 hover:underline">Reviews</Link>
-          <Link href="/faq" className="text-gray-500 hover:underline">FAQ</Link>
-          <Link href="/blog" className="text-gray-500 hover:underline">Blog</Link>
-          <Link href="/safeguarding" className="text-gray-500 hover:underline">Safeguarding</Link>
-          <Link href="/contact" className="text-gray-500 hover:underline">Contact</Link>
+          <Link href="/pages/testimonials" className="text-gray-500 hover:underline">Testimonials</Link>
+          <Link href="/pages/faq" className="text-gray-500 hover:underline">FAQ</Link>
+          <Link href="/pages/blog" className="text-gray-500 hover:underline">Blog</Link>
+          <Link href="/pages/safeguarding" className="text-gray-500 hover:underline">Safeguarding</Link>
+          <Link href="/pages/contact" className="text-gray-500 hover:underline">Contact</Link>
         </div>
 
       </div>
