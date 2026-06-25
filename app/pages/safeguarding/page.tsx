@@ -11,7 +11,7 @@ export default function safeguarding() {
                 </h1>
             <InfoCard>
                 <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                    Here are our safeguarding policies. If you have any other questions, please don't hesitate to contact us.
+                    Here are our safeguarding policies. If you have any questions, please don't hesitate to contact us.
                 </p>
             </InfoCard>
         </div>
