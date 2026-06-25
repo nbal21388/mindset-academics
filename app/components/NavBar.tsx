@@ -23,17 +23,14 @@ export default function NavBar() {
         <Link href="/pages/subjects" className="text-yellow-300 hover:underline">
           Subjects
         </Link>
-        <Link href="/pages/blog" className="text-green-300 hover:underline">
-          Blog
+        <Link href="/pages/tutor" className="text-green-300 hover:underline">
+          Find a Tutor
+        </Link>
+        <Link href="/pages/prices" className="text-green-300 hover:underline">
+          Prices
         </Link>
         <Link href="/pages/contact" className="text-red-300  hover:underline">
           Contact Us
-        </Link>
-        <Link href="/pages/testimonials" className="text-blue-300 hover:underline">
-          Testimonials
-        </Link>
-        <Link href="/pages/faq" className="text-purple-300 hover:underline">
-          FAQ
         </Link>
       </div>
     )}
