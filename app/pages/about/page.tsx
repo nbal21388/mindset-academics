@@ -13,13 +13,31 @@ export default function About() {
                 </h1>
             <InfoCard>
                 <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                    At Mindset Academics, we are dedicated to providing high-quality educational resources and support to students of all ages. 
-                    Our mission is to empower learners with the knowledge and skills they need to succeed academically and beyond. 
-                    We believe in fostering a growth mindset, encouraging curiosity, and promoting lifelong learning. 
-                    Whether you're a student looking for study tips, a parent seeking guidance, or an educator searching for innovative teaching strategies, 
-                    Mindset Academics is here to help you achieve your goals.
+                    We are a group of 4 tutors
                 </p>
             </InfoCard>
+            <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+                <InfoCard>
+                    <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400 border-green-800 border-2">
+                        Nehaal
+                    </p>
+                </InfoCard>
+                <InfoCard>
+                    <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400  border-rose-900 border-2">
+                        Amaal
+                    </p>
+                </InfoCard>
+                <InfoCard>
+                    <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400 border-violet-950 border-2">
+                        Amber
+                    </p>
+                </InfoCard>
+                <InfoCard>
+                    <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400 border-sky-900 border-2">
+                        Nadia
+                    </p>
+                </InfoCard>
+            </div>
         </div>
     );
 }
