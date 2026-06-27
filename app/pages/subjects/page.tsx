@@ -29,6 +29,22 @@ const subjectsData = {
     levels: ["KS3", "GCSE", "A-Level"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
+  Spanish: {
+    title: "Spanish",
+    tag: "Language Subject",
+    tagColor: "#4A90D9",
+    summary: "From KS2 to GCSE, we help students build confidence and learn.",
+    levels: ["KS3", "GCSE"],
+    examBoards: ["AQA", "Edexcel"],
+  },
+  German: {
+    title: "German",
+    tag: "Language Subject",
+    tagColor: "#4A90D9",
+    summary: "From KS3 to GCSE, we help students build confidence and learn.",
+    levels: ["KS3", "GCSE"],
+    examBoards: ["AQA", "Edexcel"],
+  }
 };
 
 export default function Subjects() {
