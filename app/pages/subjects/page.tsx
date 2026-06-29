@@ -21,15 +21,15 @@ const subjectsData = {
     levels: ["KS3", "GCSE", "A-Level"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
-  Biology: {
-    title: "Biologu",
+  biology: {
+    title: "Biology",
     tag: "Core Subject",
     tagColor: "#4CAF50",
     summary: "Biology tutoring tailored to your exam board.",
     levels: ["KS3", "GCSE", "A-Level"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
-  Chemistry: {
+  chemistry: {
     title: "Chemistry",
     tag: "Core Subject",
     tagColor: "#4CAF50",
@@ -37,7 +37,7 @@ const subjectsData = {
     levels: ["KS3", "GCSE", "A-Level"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
-  Physics: {
+  physics: {
     title: "Physics",
     tag: "Core Subject",
     tagColor: "#4CAF50",
@@ -53,7 +53,7 @@ const subjectsData = {
     levels: ["KS3", "GCSE". "University"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
-  Spanish: {
+  spanish: {
     title: "Spanish",
     tag: "Language Subject",
     tagColor: "#4A90D9",
@@ -61,7 +61,7 @@ const subjectsData = {
     levels: ["KS3", "GCSE"],
     examBoards: ["AQA", "Edexcel"],
   },
-  German: {
+  german: {
     title: "German",
     tag: "Language Subject",
     tagColor: "#4A90D9",
