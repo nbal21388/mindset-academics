@@ -45,6 +45,14 @@ const subjectsData = {
     levels: ["KS3", "GCSE", "A-Level"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
+  computing: {
+    title: "Computing",
+    tag: "Core Subject",
+    tagColor: "#4CAF50",
+    summary: "Computing tutoring tailored to your exam board.",
+    levels: ["KS3", "GCSE". "University"],
+    examBoards: ["AQA", "Edexcel", "OCR"],
+  },
   Spanish: {
     title: "Spanish",
     tag: "Language Subject",
