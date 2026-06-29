@@ -21,15 +21,39 @@ const subjectsData = {
     levels: ["KS3", "GCSE", "A-Level"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
-  science: {
-    title: "Science",
+  biology: {
+    title: "Biology",
     tag: "Core Subject",
     tagColor: "#4CAF50",
-    summary: "Biology, Chemistry and Physics tutoring tailored to your exam board.",
+    summary: "Biology tutoring tailored to your exam board.",
     levels: ["KS3", "GCSE", "A-Level"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
-  Spanish: {
+  chemistry: {
+    title: "Chemistry",
+    tag: "Core Subject",
+    tagColor: "#4CAF50",
+    summary: "Chemistry tutoring tailored to your exam board.",
+    levels: ["KS3", "GCSE", "A-Level"],
+    examBoards: ["AQA", "Edexcel", "OCR"],
+  },
+  physics: {
+    title: "Physics",
+    tag: "Core Subject",
+    tagColor: "#4CAF50",
+    summary: "Physics tutoring tailored to your exam board.",
+    levels: ["KS3", "GCSE", "A-Level"],
+    examBoards: ["AQA", "Edexcel", "OCR"],
+  },
+  computing: {
+    title: "Computing",
+    tag: "Core Subject",
+    tagColor: "#4CAF50",
+    summary: "Computing tutoring tailored to your exam board.",
+    levels: ["KS3", "GCSE". "University"],
+    examBoards: ["AQA", "Edexcel", "OCR"],
+  },
+  spanish: {
     title: "Spanish",
     tag: "Language Subject",
     tagColor: "#4A90D9",
@@ -37,7 +61,7 @@ const subjectsData = {
     levels: ["KS3", "GCSE"],
     examBoards: ["AQA", "Edexcel"],
   },
-  German: {
+  german: {
     title: "German",
     tag: "Language Subject",
     tagColor: "#4A90D9",
