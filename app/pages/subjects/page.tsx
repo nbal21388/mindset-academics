@@ -50,7 +50,7 @@ const subjectsData = {
     tag: "Core Subject",
     tagColor: "#4CAF50",
     summary: "Computing tutoring tailored to your exam board.",
-    levels: ["KS3", "GCSE". "University"],
+    levels: ["KS3", "GCSE", "University"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
   spanish: {
