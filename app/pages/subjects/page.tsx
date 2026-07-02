@@ -49,7 +49,7 @@ const subjectsData = {
     title: "Computing",
     tag: "Core Subject",
     tagColor: "#4c51af",
-    summary: "Computing tutoring tailored to your exam board.",
+    summary: "Computing tutoring tailored to your level and/or exam board.",
     levels: ["KS3", "GCSE", "University"],
     examBoards: ["AQA", "Edexcel", "OCR"],
   },
@@ -68,6 +68,22 @@ const subjectsData = {
     summary: "From KS3 to GCSE, we help students build confidence and learn.",
     levels: ["KS3", "GCSE"],
     examBoards: ["AQA", "Edexcel"],
+  },
+  design: {
+    title: "Design & Technology",
+    tag: "Art Subject",
+    tagColor: "#d86161",
+    summary: "Design & Technology tutoring tailored to your exam board.",
+    levels: ["GCSE"],
+    examBoards: ["AQA", "Edexcel", "OCR"],
+  },
+  art: {
+    title: "Art (Fine & Graphics)",
+    tag: "Art Subject",
+    tagColor: "#d86161",
+    summary: "Art tutoring tailored to your level and/or exam board.",
+    levels: ["GCSE", "A-Level"],
+    examBoards: ["AQA", "Edexcel", "OCR"],
   }
 };
 
