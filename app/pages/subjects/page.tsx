@@ -83,7 +83,7 @@ export default function Subjects() {
         <p className="text-lg leading-8 text-darkgrey-600 dark:text-zinc-400">
           We offer a wide range of subjects to cater to the diverse interests and academic needs of our students.
           Whether you're looking for help with homework, preparing for exams, or seeking enrichment opportunities,
-          our tutors are here to support your learning journey.
+          our tutors are here to support your learning journey from KS2, KS3, GCSEs, A Level or University levels.
         </p>
       </InfoCard>
 
